@@ -1,0 +1,7 @@
+<table class="header_footer">
+	<tr height="25" bgcolor="#7DE6BB">
+		<td width="33%" align="center"><a href="HOME">HOME</a></td>
+		<td width="33%" align="center"><a href="ABOUT">ABOUT</a></td>
+		<td width="33%" align="center"><a href="CONTACT">CONTACT</a></td>
+	</tr>
+</table>

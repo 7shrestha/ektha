@@ -1,0 +1,50 @@
+package com.nivtek.university.service;
+
+import com.nivtek.university.dao.RegisterDAO;
+import com.nivtek.university.entity.Student;
+
+/**
+ * 
+ * @author Arbind Shrestha
+ * @date Dec 24, 2014
+ */
+public class RegisterService {
+
+	Boolean isRegister;
+	Boolean isAddress;
+
+	/**
+	 * @param student
+	 * @return boolean
+	 */
+	public boolean registerStudent(Student student) {
+		RegisterDAO registerDAO = new RegisterDAO();
+		if (registerDAO.registerStudent(student) > 0) {
+			isRegister = true;
+
+		} else {
+			isRegister = false;
+		}
+		;
+		return isRegister;
+
+	}
+
+	/**
+	 * @param student
+	 * @return boolean
+	 */
+	public boolean registerStudentAddress(Student student) {
+		RegisterDAO registerDAO = new RegisterDAO();
+		if (registerDAO.registerAddress(student) > 0) {
+			isAddress = true;
+
+		} else {
+			isAddress = false;
+		}
+		;
+		return isAddress;
+
+	}
+
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Bootcamp Home</title>
+	<link rel="stylesheet" type="text/css" href="css/bootcamp.css">
+</head>
+<body>
+	<!-- --------------------------------------HEADER------------------------------------------------- -->
+		<table class="header_footer">
+			<tr bgcolor="#CBAAEC">
+				<td width="50%" class="td_center"><img src="picture/bootcampImage.png"
+					style="width: 128px; height: 128px">
+					<span style="color:#0000FF">EKTHA JAVA WORLD</span><br/>
+					<i>6220 N Beltline Rd #212
+						Irving, TX 75063</i>
+					</td>
+					<td width="50%" align="center"><a href="jsp/login.jsp">login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="jsp/register.jsp">Register</a></td>
+					</tr>
+			</table>
+			<!-- --------------------------------------MENU------------------------------------------------- -->
+			<table class="header_footer">
+				<tr height="25" bgcolor="#7DE6BB">
+					<td width="33%" align="center"><a href="HOME">HOME</a></td>
+					<td width="33%" align="center"><a href="ABOUT">ABOUT</a></td>
+					<td width="33%" align="center"><a href="CONTACT">CONTACT</a></td>
+				</tr>
+			</table>
+			
+			<!-- --------------------------------------BODY SECTION------------------------------------------------- -->
+			<section>
+				<p align="center">Welcome to BootCamp, where execution matter.</p>
+				<p align="center">Welcome to BootCamp, where execution matter.</p>
+				<p align="center">Welcome to BootCamp, where execution matter.</p>
+				<p align="center">Welcome to BootCamp, where execution matter.</p>
+			</section>
+			<!-- --------------------------------------FOOTER------------------------------------------------- -->
+				<div style="width: 99%; position: fixed; bottom: 0">
+					<table class="header_footer">
+						<tr bgcolor="#CBAAEC" height="70px">
+							<td width="50%" class="td_center"><a href="About">About</a> <br />
+								<a href="Enrollment">Enrollment</a></td>
+								<td width="50%" class="td_center"><a href="Contact">Contact</a>
+									<br />
+									<a href="Programs">Programs</a></td>
+								</tr>
+							</table>
+						</div>
+				</body>
+				</html>

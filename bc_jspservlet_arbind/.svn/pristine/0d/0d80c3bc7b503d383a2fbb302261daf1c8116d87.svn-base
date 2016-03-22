@@ -1,0 +1,9 @@
+<div style="width: 99%; position: fixed; bottom: 0">
+	<table class="header_footer">
+		<tr bgcolor="#CBAAEC" height="70px">
+			<td width="50%" class="td_center"><a href="About">About</a> <br />
+				<a href="Enrollment">Enrollment</a></td>
+			<td width="50%" class="td_center"><a href="Contact">Contact</a>
+				<br /> <a href="Programs">Programs</a></td>
+		</tr>
+	</table>
